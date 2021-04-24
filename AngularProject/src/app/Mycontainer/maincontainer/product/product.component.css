@@ -1,0 +1,16 @@
+/* h1{
+    color:#fff;
+    text-align: center;
+    padding: 60px;
+} */
+/* .ab{
+    background:rgb(10, 9, 7);
+    border-radius: 10px;
+    margin: 10px;
+} */
+ .card
+{
+    display: inline-block;
+    width: 24%;
+    margin:0 3px 3px;
+} 

@@ -1,0 +1,46 @@
+  <div class="container py-4 bg-white">
+    <div class="alert alert-ligth border d-flex align-item-center" *ngIf="addedproduct">
+  <strong class="text-success">{{addedproduct}}</strong>&nbsp;added to cart
+      <button class="btn btn-success ml-auto">CheckOut</button> 
+    </div>
+  <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+            <img class="card-img-top" src="../../assets/tree.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nature1</h5>
+              
+              <button  class="btn btn-success" (click)="onSelectProduct('Nature1')">Add</button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="../../assets/tree.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nature2</h5>
+              <button  class="btn btn-success" (click)="onSelectProduct('Nature2')">Add</button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="../../assets/tree.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nature3</h5>
+              <button  class="btn btn-success" (click)="onSelectProduct('Nature3')">Add</button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="../../assets/tree.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nature4</h5>
+              
+              <button  class="btn btn-success" (click)="onSelectProduct('Nature4')">Add</button>
+            </div>
+          </div>
+<div class="col md-12 bg-success text-white text-center py-4" >
+  <h2 *ngIf="!productSelected">please select any product</h2>
+  <h2 *ngIf="productSelected">{{productSelect}} is selected</h2>
+  <button class="btn btn-primary"(click)="addToCart()">Add to cart</button>
+</div>
+      </div>
+  </div>
+  </div>
+

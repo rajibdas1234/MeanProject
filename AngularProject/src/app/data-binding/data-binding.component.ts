@@ -1,0 +1,21 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-data-binding',
+  templateUrl: './data-binding.component.html',
+  styleUrls: ['./data-binding.component.css']
+})
+export class DataBindingComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+dyname:string=" sajib";
+appStatus:boolean=false;
+
+myMethod()
+{
+  return "my name is" + this.dyname
+}
+}

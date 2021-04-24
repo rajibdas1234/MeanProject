@@ -1,0 +1,27 @@
+<h1>My name is {{dyname}}</h1>
+
+<br>
+<br>
+{{5+10}}
+<br><br>
+<br>
+{{"rajib"+10000}}
+<br>
+<br>
+{{dyname.length}}
+<br>
+<br>
+{{dyname.toUpperCase()}}
+<br><br>
+{{myMethod()}}
+<h1>i am in {{appStatus? "online":"offline"}}</h1>
+<input type="text" value="{{dyname}}">
+<br><br>
+<input type="text" hidden [value]="dyname">
+<br><br>
+<input type="text" disabled bind-value="dyname">
+<br><br>
+<br>
+<input type="text"  [disabled]="false" name=""   [value]="dyname">
+
+

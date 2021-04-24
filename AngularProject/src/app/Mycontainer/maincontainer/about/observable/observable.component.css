@@ -1,0 +1,20 @@
+h1{
+    color:#fff;
+    text-align: center;
+    padding: 60px;
+}
+
+.small
+{ 
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px 10px;
+    background-color: chocolate;
+    height: 80px;
+    border-radius: 5px;
+    
+   
+}
+.small h6 a{
+    color: #fff;
+}
